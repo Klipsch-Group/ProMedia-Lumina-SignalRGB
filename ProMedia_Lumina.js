@@ -210,12 +210,12 @@ function hexToRgb(hex) {
 function createSpeakerComponents() {
 	device.createSubdevice(LEFT_SPEAKER);
 	device.setSubdeviceName(LEFT_SPEAKER, "ProMedia Lumina - Left Speaker");
-	device.setSubdeviceImageUrl(LEFT_SPEAKER, "https://raw.githubusercontent.com/Klipsch-Group/ProMedia-Lumina-SignalRGB/refs/heads/main/images/promedia_lumina_left.png");
+	device.setSubdeviceImageUrl(LEFT_SPEAKER, "https://raw.githubusercontent.com/Klipsch-Group/ProMedia-Lumina-SignalRGB/7e11729c7f1d607e02ec6f55b97ab65d44646831/images/promedia_lumina_left.png");
 	device.setSubdeviceSize(LEFT_SPEAKER, 3, 2);
 
 	device.createSubdevice(RIGHT_SPEAKER);
 	device.setSubdeviceName(RIGHT_SPEAKER, "ProMedia Lumina - Right Speaker");
-	device.setSubdeviceImageUrl(RIGHT_SPEAKER, "https://raw.githubusercontent.com/Klipsch-Group/ProMedia-Lumina-SignalRGB/refs/heads/main/images/promedia_lumina_right.png");
+	device.setSubdeviceImageUrl(RIGHT_SPEAKER, "https://raw.githubusercontent.com/Klipsch-Group/ProMedia-Lumina-SignalRGB/7e11729c7f1d607e02ec6f55b97ab65d44646831/images/promedia_lumina_right.png");
 	device.setSubdeviceSize(RIGHT_SPEAKER, 3, 2);
 }
 
